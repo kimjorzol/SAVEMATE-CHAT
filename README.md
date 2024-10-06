@@ -1,10 +1,10 @@
-# Robby-chatbot 🤖
+# SaveMate-chatbot 🤖
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/yvann_hub?style=social)](https://twitter.com/yvann_hub)
 
 
 ### An AI chatbot featuring conversational memory, designed to enable users to discuss their CSV, PDF, TXT data and YTB videos in a more intuitive manner. 🚀
-![Robby](robby-pic.png)
+![Robby](golden_retriever.jpg)
 Robby the Robot from [Forbidden Planet](https://youtu.be/bflfQN_YsTM)
 
 #### For better understanding, see my medium article 🖖 : [Build a chat-bot over your CSV data](https://medium.com/@yvann-hub/build-a-chatbot-on-your-csv-data-with-langchain-and-openai-ed121f85f0cd)
@@ -29,7 +29,7 @@ Clone the repository :
 
 Navigate to the project directory :
 
-`cd Robby-chatbot`
+`cd CHATBOT_BASIC`
 
 
 Create a virtual environment for Windows:
@@ -52,8 +52,7 @@ pip install -r requirements.txt
 
 Launch the chat service locally :
 ```bash
-streamlit run /Users/imyungju/desktop/code_sh/CHATBOT_BASIC/src/1_📄Robby-Chat.py #이거 실행을 위해서는 robby-chat.py 위치를 pages폴더에서 src 폴더로 이동해야함 #자기 주소로 바꾸기
-streamlit run src/Home.py #얘는 지금 말고 나중에 실행하기
+streamlit run /Users/imyungju/desktop/code_sh/CHATBOT_BASIC/src/SaveMate-chat.py #로컬 주소로 바꾼 후 실행
 ```
 #### That's it! The service is now up and running locally. 🤗
 
