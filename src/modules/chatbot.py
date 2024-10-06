@@ -4,7 +4,8 @@ import streamlit as st
 from langchain_upstage import ChatUpstage
 from langchain_core.prompts import PromptTemplate
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
+#from langchain_community.vectorstores import Chroma
 from langchain_upstage import UpstageEmbeddings
 from langchain_core.output_parsers import StrOutputParser
 from bs4 import BeautifulSoup
