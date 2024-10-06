@@ -2,7 +2,8 @@ import os
 import tempfile
 from langchain_upstage import UpstageEmbeddings
 from langchain_community.document_loaders import PyPDFLoader, CSVLoader, TextLoader
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
+#from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
 import getpass
